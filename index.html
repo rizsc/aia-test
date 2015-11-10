@@ -1,0 +1,142 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AIA App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <!--<link rel="stylesheet" href="lib/bootstrap.css">-->
+  <link rel="stylesheet" href="assets/main.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+
+</head>
+<body ng-controller="HomeController">
+	<!--[if lt IE 7]>
+	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<div class="container-fluid header">
+		<div class="col-md-12">
+			<div class="container">
+				<div class="row">
+				  <div class="col-md-12 logo">
+					<h1>LOGO</h1>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<header class="navbar navbar-static-top bs-docs-nav nav" id="top" role="banner">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		</div>
+		<nav id="bs-navbar" class="navbar-collapse collapse" aria-expanded="false">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Graduate Programmes</a></li>
+			<li><a href="#">Internships</a></li>
+			<li><a href="#">Search jobs and Apply</a></li>
+		  </ul>
+		</nav>
+	  </div>
+	</header>
+	
+	<div class="main-banner">
+		<div class="col-md-12">
+			<div class="container">
+				<div class="row">
+					<h1>We <span style="color:#cd1670">love</span> <br>
+						the positively <br>
+						perplexing <br>
+					</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="search">
+		<div class="col-md-12">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 col"></div>
+					<div class="col-sm-8 col">		
+					<div class="form-group has-feedback">
+						<input placeholder="Search Jobs and apply" type="text" class="form-control inputSearch" id="inputSearch">
+						<span class="fa fa-search fa-2x form-control-feedback icon"></span>
+					</div>
+					<div class="col-sm-2 col"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="col-md-12 col">
+			<div class="container">
+				<div class="row">			
+					<h1>Graduate careers & internships</h1>
+					<p>Welcome to Company. We’re a leading engineering and technology company where solving mind-bending problems is our job, our passion – our world. If you’re a graduate keen to embark on a stimulating engineering, business or finance career, or an undergraduate looking for an insightful internship or placement, it could be your world too. Read about our graduate and internship programmes in the UK. Find out how you can develop. Discover what we’re doing in Security, Defence, Aerospace and Transport. Delve into this site – and watch the video.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="promos">
+		<div class="col-md-12 bg">
+			<div class="container">
+				<div class="col-sm-4 col">
+					<div class="promo1 center">
+						<i class="fa fa-file-o fa-4x"></i>
+					</div>
+					<div class="title">Roles</div>
+				</div>
+				<div class="col-sm-4 col">
+					<div class="promo2 center">
+						<i class="fa fa-calendar fa-4x"></i>
+					</div>
+					<div class="title">Open events</div>
+				</div>
+				<div class="col-sm-4 col">
+					<div class="promo3 center">
+						<i class="fa fa-spinner fa-4x"></i>
+					</div>
+					<div class="title">Recruitment process</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="col-md-12 hidden-xs">
+			<div class="container">
+				<div class="row">			
+					<div class="col-sm-8 col"><div class="copyright">© Copyright Company 2014</div></div>
+					<div class="col-sm-4 col"><img class="pull-right" src="assets/img/award.jpg"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--[if lt IE 9]>
+<script src="bower_components/es5-shim/es5-shim.js"></script>
+<![endif]-->
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="app/app.js"></script>
+<script src="app/controller/home/homeController.js"></script>
+</body>
+</html>

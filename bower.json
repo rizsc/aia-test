@@ -1,0 +1,30 @@
+{
+  "name": "aia_test",
+  "description": "",
+  "main": "app/main.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "authors": [
+    "Rizwan Chauhan"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-bootstrap": "~0.14.3",
+    "es5-shim": "~4.3.0",
+    "bootstrap": "~3.3.5",
+    "angular-animate": "~1.4.7",
+    "font-awesome": "~4.4.0"
+  }
+}
